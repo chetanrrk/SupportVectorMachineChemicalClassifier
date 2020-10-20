@@ -17,10 +17,15 @@ predict.csv: contains prediction data containg 'm' chemicals and 'n' features an
 
 # General Description
 Applies undersampling of the highly populated class to balance the data set
+
 Scales the features using minmax scaler and applies feature selection using PCA and L2 regularization 
+
 Runs a 10 fold cross validation and find the best classifier 
+
 Applies rbf kernel for the svm model
+
 Applies leverage statistics to compute the model domain and flag compounds outside the domain
+
 Outputs the uncertinity in prediction using the vairiance of the models from the cross validation
 
 # Requirement.txt includes
