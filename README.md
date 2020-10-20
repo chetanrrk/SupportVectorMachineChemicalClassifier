@@ -6,9 +6,13 @@ Users can pass in the training file, testing file, and prediction (to predit the
 
 # To run the code: 
 python svm_chemical_classifier.py train.csv test.csv predict.csv
+
 where,
+
 train.csv: contains training data containg 'm' chemicals and 'n' features and activity class label (0/1)
+
 test.csv: contains testing data containg 'm' chemicals and 'n' features and activity class label (0/1)
+
 predict.csv: contains prediction data containg 'm' chemicals and 'n' features and no label (will be predicted) 
 
 # General Description
